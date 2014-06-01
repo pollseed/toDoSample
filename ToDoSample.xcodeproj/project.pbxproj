@@ -19,6 +19,9 @@
 		C663454E1937783300BBDADF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66345361937783300BBDADF /* UIKit.framework */; };
 		C66345561937783300BBDADF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C66345541937783300BBDADF /* InfoPlist.strings */; };
 		C66345581937783300BBDADF /* ToDoSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C66345571937783300BBDADF /* ToDoSampleTests.m */; };
+		C66345621937789300BBDADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66345611937789200BBDADF /* Main.storyboard */; };
+		C66345651937809A00BBDADF /* TDSItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66345641937809A00BBDADF /* TDSItemListViewController.m */; };
+		C6634568193784D800BBDADF /* TDSCreateItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6634567193784D800BBDADF /* TDSCreateItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		C66345531937783300BBDADF /* ToDoSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoSampleTests-Info.plist"; sourceTree = "<group>"; };
 		C66345551937783300BBDADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C66345571937783300BBDADF /* ToDoSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoSampleTests.m; sourceTree = "<group>"; };
+		C66345611937789200BBDADF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C66345631937809A00BBDADF /* TDSItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSItemListViewController.h; sourceTree = "<group>"; };
+		C66345641937809A00BBDADF /* TDSItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSItemListViewController.m; sourceTree = "<group>"; };
+		C6634566193784D800BBDADF /* TDSCreateItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSCreateItemViewController.h; sourceTree = "<group>"; };
+		C6634567193784D800BBDADF /* TDSCreateItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSCreateItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,11 @@
 				C66345421937783300BBDADF /* TDSAppDelegate.m */,
 				C66345441937783300BBDADF /* Images.xcassets */,
 				C66345391937783300BBDADF /* Supporting Files */,
+				C66345611937789200BBDADF /* Main.storyboard */,
+				C66345631937809A00BBDADF /* TDSItemListViewController.h */,
+				C66345641937809A00BBDADF /* TDSItemListViewController.m */,
+				C6634566193784D800BBDADF /* TDSCreateItemViewController.h */,
+				C6634567193784D800BBDADF /* TDSCreateItemViewController.m */,
 			);
 			path = ToDoSample;
 			sourceTree = "<group>";
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66345621937789300BBDADF /* Main.storyboard in Resources */,
 				C663453D1937783300BBDADF /* InfoPlist.strings in Resources */,
 				C66345451937783300BBDADF /* Images.xcassets in Resources */,
 			);
@@ -241,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C66345431937783300BBDADF /* TDSAppDelegate.m in Sources */,
+				C6634568193784D800BBDADF /* TDSCreateItemViewController.m in Sources */,
+				C66345651937809A00BBDADF /* TDSItemListViewController.m in Sources */,
 				C663453F1937783300BBDADF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +454,7 @@
 				C663455D1937783300BBDADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C663455E1937783300BBDADF /* Build configuration list for PBXNativeTarget "ToDoSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +463,7 @@
 				C66345601937783300BBDADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  TDSAppDelegate.h
+//  TDSItemListViewController.h
 //  ToDoSample
 //
 //  Created by pollseed on 2014/05/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TDSAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface TDSItemListViewController : UITableViewController
 
 @end

@@ -2,7 +2,7 @@
 //  TDSAppDelegate.m
 //  ToDoSample
 //
-//  Created by ogasawara shinnosuke on 2014/05/29.
+//  Created by pollseed on 2014/05/29.
 //  Copyright (c) 2014年 pollseed. All rights reserved.
 //
 
@@ -12,10 +12,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
 
